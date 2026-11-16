@@ -129,15 +129,3 @@ Para desenvolver, também é possível abrir a pasta no **VS Code** e usar uma e
 Estudar envolve mais do que terminar uma lista de atividades. Também é preciso ter clareza sobre os prazos, encontrar momentos de concentração e permitir pequenas pausas ao longo do dia.
 
 O **Mindful Bits** reúne essas necessidades em uma experiência simples: **planejar o que precisa ser feito, focar em uma coisa de cada vez e respirar entre uma etapa e outra.**
-
----
-
-<div align="center">
-
-**✿ Mindful Bits**
-
-*organize • foque • respire*
-
-Feito com carinho pelos pequenos momentos do dia. ♡
-
-</div>
