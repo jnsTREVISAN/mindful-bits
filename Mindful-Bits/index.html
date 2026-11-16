@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#FFFAF5"><meta name="description" content="Organize tarefas por disciplina e prazo, use o pomodoro e faça exercícios de respiração no Mindful Bits.">
+<title>Tarefas · Mindful Bits</title><link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="assets/styles.css"><script defer src="assets/local-store.js"></script>
+<script defer src="assets/shared.js"></script>
+<script defer src="assets/timer.js"></script>
+<script defer src="assets/tasks.js"></script>
+<script defer src="assets/breathing.js"></script>
+<script defer src="assets/app.js"></script>
+</head><body data-page="tasks"><a class="skip-link" href="#main">Ir para o conteúdo</a>
+<aside class="sidebar" id="sidebar" aria-label="Navegação principal"></aside>
+<div class="site-content"><header class="topbar" id="topbar"></header>
+<div id="storage-warning" class="storage-warning" role="alert" hidden></div>
+<main id="main" class="main-content" tabindex="-1">
+
+<section class="hero tasks-hero">
+<div class="hero-content"><span class="eyebrow"><span class="small-line"></span> SEU PLANEJAMENTO</span><h1>Suas tarefas<span class="title-dot">.</span></h1><p>Disciplinas, prazos e estudos em um só lugar.</p><button id="new-task" class="button button-primary"><span data-icon="plus"></span> Nova tarefa</button></div>
+<img class="hero-illustration" src="assets/garden.svg" alt="" width="420" height="270">
+<span class="hero-corner">01 / ORGANIZAÇÃO</span>
+</section>
+<div class="stats-grid" aria-label="Resumo das tarefas">
+<div class="stat-card"><span class="stat-icon sage" data-icon="tasks"></span><div><span class="stat-value" id="pending-count">0</span><span class="stat-label">Tarefas pendentes</span></div><span class="stat-decor">↗</span></div>
+<div class="stat-card"><span class="stat-icon peach" data-icon="calendar"></span><div><span class="stat-value" id="today-count">0</span><span class="stat-label">Para hoje</span></div><span class="stat-decor">↗</span></div>
+<div class="stat-card"><span class="stat-icon lavender" data-icon="check"></span><div><span class="stat-value" id="done-count">0</span><span class="stat-label">Concluídas</span></div><span class="stat-decor">✓</span></div>
+</div>
+<div class="tasks-layout"><section class="tasks-panel" aria-label="Lista de tarefas"><div id="tasks-app"></div></section>
+<aside class="study-tools"><div class="aside-label">ENTRE OS ESTUDOS <span></span></div>
+<a class="tool-card pomodoro-card" href="pomodoro.html"><span class="tool-icon" data-icon="timer"></span><span class="tool-tag">FOCO</span><h2>Hora de estudar</h2><p>Defina um tempo de estudo<br>e uma pausa.</p><span class="tool-link">Abrir pomodoro <span data-icon="arrowRight"></span></span><span class="card-orbit" aria-hidden="true"></span></a>
+<a class="tool-card breathing-card" href="respiracao.html"><span class="tool-icon" data-icon="flower"></span><span class="tool-tag">INTERVALO</span><h2>Respiração guiada</h2><p>Um exercício simples<br>de um minuto.</p><span class="tool-link">Abrir exercício <span data-icon="arrowRight"></span></span><span class="card-flower" aria-hidden="true">✳</span></a>
+</aside></div>
+</main><footer class="site-footer"><span>Mindful Bits</span><span>Organização · Foco · Respiração</span><span class="footer-local"><i></i> Salvo neste navegador</span></footer></div>
+<div id="toast" class="toast" role="status" hidden></div>
+<noscript><div class="storage-warning">Ative o JavaScript para usar as tarefas e os timers.</div></noscript></body></html>
